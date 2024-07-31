@@ -1,0 +1,490 @@
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.navbar-brand img {
+  height: 2.7rem;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 27rem;
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  margin-right: 6rem;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+
+/* heroPage*/
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+}
+
+.main {
+  font-family: "Nunito", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main span {
+  color: #16eb9d;
+}
+.background {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 22rem;
+  width: 100vw;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.background img {
+  height: 25rem;
+  width: 100vw;
+}
+.heroImg {
+  position: absolute;
+  top: 79%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+.heroImg img {
+  height: 27rem;
+}
+.heroimgTxt1 p {
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+  color: black;
+  position: absolute;
+  top: 64%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.heroimgTxt2 p {
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+  color: #16eb9d;
+  position: absolute;
+  top: 64%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.milestoneContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 14.5rem;
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  margin-top: 40rem;
+  font-family: "Nunito", sans-serif;
+}
+.milestoneContainermain {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.traininghrs {
+  display: flex;
+  flex-direction: row;
+}
+.hrs {
+  font-size: 4rem;
+  font-weight: 800;
+  color: black;
+}
+.traininghrs p {
+  font-size: 4rem;
+  font-weight: 800;
+  color: black;
+}
+.traininghrs span {
+  color: #16eb9d;
+}
+.batchesCompleted {
+  display: flex;
+  flex-direction: column;
+}
+.batchesCompleted span {
+  color: #16eb9d;
+}
+.projectsCompleted span {
+  color: #16eb9d;
+}
+.batchesCompleted p {
+  font-size: 4rem;
+  font-weight: 800;
+  color: black;
+}
+.projectsCompleted p {
+  font-size: 4rem;
+  font-weight: 800;
+  color: black;
+}
+.patentsCompleted p {
+  font-size: 4rem;
+  font-weight: 800;
+  color: black;
+}
+.mlstone {
+  font-size: 20px;
+  font-weight: 750;
+}
+.projectsections {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.projectContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  width: 25%;
+  margin: 1rem;
+  width: 80%;
+  text-align: center;
+}
+.projectContainer span {
+  color: #16eb9d;
+}
+.projectContainers {
+  display: flex;
+  justify-content: center;
+}
+.projectContainers img {
+  margin-left: 2rem;
+}
+.project1 p {
+  margin-top: 1rem;
+}
+.project2 p {
+  margin-top: 1rem;
+}
+.project3 p {
+  margin-top: 1rem;
+}
+.project1 img {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 2rem;
+}
+.project2 img {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 2rem;
+  margin-top: -2.4rem;
+}
+.project3 img {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 2rem;
+}
+
+.project1 {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project2 {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project3 {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.servicesPage {
+  margin-top: 6rem;
+}
+.service {
+  display: flex;
+  justify-content: center;
+}
+.serviceContainer {
+  display: flex;
+  justify-content: center;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+.service1 {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.service2 {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.service1 img {
+  margin-bottom: -2rem;
+}
+.service2 img {
+  margin-bottom: -2rem;
+}
+.MomentsPage span {
+  color: #16eb9d;
+}
+.moments {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.MomentsPage {
+  width: 100vw;
+}
+.momentsContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.momentsLeftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  z-index: 1;
+}
+.inaugurationContent {
+  width: 75%;
+}
+.inaugurationContent h1 {
+  font-size: 3rem;
+  color: #16eb9d;
+  font-weight: 400;
+}
+.momentsRightSide {
+  display: flex;
+  justify-content: right;
+  width: 50vw;
+  z-index: 1;
+}
+.momentsRightSide img {
+  width: 90rem;
+  height: 40rem;
+}
+.momentsRightSide1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  z-index: 1;
+}
+.clientPage {
+  margin-top: 1rem;
+  width: 100vw;
+}
+.clientContainer {
+  display: flex;
+  justify-content: center;
+}
+.clients {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 80%;
+}
+.clientHeading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.clientHeading span {
+  color: #16eb9d;
+}
+.clientHeading h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.client1 img {
+  height: auto;
+  width: 100%;
+}
+.client2 img {
+  height: auto;
+  width: 100%;
+}
+.client3 img {
+  height: auto;
+  width: 100%;
+}
+.client4 img {
+  height: auto;
+  width: 100%;
+}
+.affiliatePage {
+  width: 100vw;
+  margin-top: 2rem;
+}
+.affiliateContainer {
+  display: flex;
+  justify-content: center;
+}
+.affiliates {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 80%;
+}
+.affiliateHeading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.affiliateHeading span {
+  color: #16eb9d;
+}
+.affiliateHeading h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.affiliate1 img {
+  height: auto;
+  width: 100%;
+}
+.affiliate2 img {
+  height: auto;
+  width: 100%;
+}
+.affiliate3 img {
+  height: auto;
+  width: 100%;
+  margin-top: -1.5rem;
+}
+.affiliate4 img {
+  height: auto;
+  width: 100%;
+  margin-top: -1.5rem;
+}
+.contactus {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+}
+.contactus h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.contactusContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+.email {
+  height: 7rem;
+  width: 27rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1em 1em 1em rgba(168, 161, 161, 0.6);
+}
+.contactnumber {
+  height: 7rem;
+  width: 27rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 1em 1em 1em rgba(168, 161, 161, 0.6);
+}
+.mailicon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+.callicon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+.mailus {
+  margin-right: 1rem;
+}
+.callus {
+  margin-right: 1rem;
+}
+.contactusPage {
+  margin-bottom: 3rem;
+}
+/*footer*/
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 2rem;
+}
+.footerPage {
+  width: 100vw;
+  background-color: #f9f9f9;
+}
+.footerleft {
+  width: 50%;
+  height: 10rem;
+}
+.footerleft img {
+  height: 25%;
+  padding-bottom: 1rem;
+}
+.footerleft p {
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+.footerright {
+  width: 50%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.footerright p {
+  font-size: 0.75rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
