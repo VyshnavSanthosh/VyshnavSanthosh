@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm P. Vyshnav Santhosh</h1>
 <h3 align="center">A passionate frontend developer</h3>
 
-- 🌱 I’m currently learning **React,DSA**
+- 🌱 I’m currently learning **React,DSA,CS Fundamentals**
 
 - 📫 How to reach me **vyshnavsanthosh5@gmail.com**
 
